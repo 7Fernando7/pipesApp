@@ -7,6 +7,9 @@ import { InputTextModule } from 'primeng/inputtext';
 import { MenubarModule } from 'primeng/menubar';
 import { MenuModule } from 'primeng/menu';
 import { PanelModule } from 'primeng/panel';
+import { SplitButtonModule } from 'primeng/splitbutton';
+import { TableModule } from 'primeng/table';
+import { ToolbarModule } from 'primeng/toolbar';
 
 
 
@@ -14,13 +17,15 @@ import { PanelModule } from 'primeng/panel';
   declarations: [],
   exports: [
     ButtonModule,
-    ButtonModule,
     CardModule,
     FieldsetModule,
     InputTextModule,
     MenubarModule,
     MenuModule,
     PanelModule,
+    SplitButtonModule,
+    TableModule,
+    ToolbarModule,
   ]
 })
 export class PrimeNgModule { }
